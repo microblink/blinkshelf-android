@@ -1,8 +1,8 @@
-# Microblink Product Recognition
+# BlinkShelf
 
 A product detection library for Android.
 
-### [blinkreceipt.github.io/product-recognition-sdk-android/](https://blinkreceipt.github.io/product-recognition-sdk-android/)
+### [microblink.github.io/blinkshelf-android/](https://microblink.github.io/blinkshelf-android/)
 
 ## License
 
