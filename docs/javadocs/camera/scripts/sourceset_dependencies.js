@@ -1,0 +1,1 @@
+sourceset_dependencies='{":recognition-camera:dokkaHtml/androidTestRelease":[],":recognition-camera:dokkaHtml/debug":[],":recognition-camera:dokkaHtml/main":[],":recognition-camera:dokkaHtml/release":[],":recognition-camera:dokkaHtml/testFixtures":[],":recognition-camera:dokkaHtml/testFixturesDebug":[],":recognition-camera:dokkaHtml/testFixturesRelease":[]}'

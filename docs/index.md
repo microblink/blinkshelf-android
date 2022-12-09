@@ -1,7 +1,7 @@
-# Product Recognition
+# BlinkShelf
 
 
-The Product Recognition SDK lets you build a fantastic in-store experience in your Android app. Effortlessly scan the products in the grocery store and get all the needed data about them!
+The BlinkShelf SDK lets you build a fantastic in-store experience in your Android app. Effortlessly scan the products in the grocery store and get all the needed data about them!
 
 <p align="center">
     <img src="images/screenshot.png" />
