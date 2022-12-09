@@ -2,7 +2,7 @@
 
 
 ## AAR
-Android Archive (AAR) containing everything needed to use the Product Recognition library can be retrieved from [here](https://github.com/BlinkReceipt/product-recognition-sdk-android).
+Android Archive (AAR) containing everything needed to use the BlinkShelf library can be retrieved from [here](https://github.com/microblink/blinkshelf-android){target=_blank}.
 
 
 ## Project Integration and Initialization
@@ -102,7 +102,7 @@ More info about defining Camera Settings can be found [here](fundamentals.md#sca
 
 
 ### Handling results
-`CameraFragment` uses [Fragment Result API](https://developer.android.com/guide/fragments/communicate#fragment-result) to send results back to the calling Activity. To get results, the client must set `FragmentResultListener` as shown in the code below:
+`CameraFragment` uses [Fragment Result API](https://developer.android.com/guide/fragments/communicate#fragment-result){target=_blank} to send results back to the calling Activity. To get results, the client must set `FragmentResultListener` as shown in the code below:
 ```kotlin
 supportFragmentManager
     .setFragmentResultListener(CameraFragment.REQUEST_KEY, this) { _, bundle ->
