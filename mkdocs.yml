@@ -1,0 +1,31 @@
+# pip install mkdocs mkdocs-material
+# mkdocs serve
+# mkdocs gh-deploy
+
+site_name: BlinkShelf
+site_url: https://microblink.github.io/blinkshelf-android/
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+
+nav:
+    - Overview: index.md
+    - Getting Started: getting_started.md
+    - Fundamentals: fundamentals.md 
+    - Custom UX: custom_ux.md
+    - API Documentation: api.md
+    - Change Log: changelog.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+
+  
