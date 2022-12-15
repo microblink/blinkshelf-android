@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/changelog/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/custom_ux/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/documentation/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/fundamentals/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://microblink.github.io/blinkshelf-android/getting_started/</loc>
+         <lastmod>2022-12-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
