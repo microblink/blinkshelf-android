@@ -40,6 +40,10 @@ $dokka.location:com.microblink.recognition.core.internal.services/StoreSettings/
 $dokka.location:com.microblink.recognition.core.internal////PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/index.html
 $dokka.location:com.microblink.recognition.core.internal//UNITED_STATES/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-u-n-i-t-e-d_-s-t-a-t-e-s.html
 $dokka.location:com.microblink.recognition.core.internal//cropImageToROI/android.graphics.Bitmap#android.graphics.RectF/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/crop-image-to-r-o-i.html
+$dokka.location:com.microblink.recognition.core.internal//decode/#kotlinx.serialization.DeserializationStrategy[TypeParam(bounds=[kotlin.Any?])]#kotlin.Function0[okio.ByteString]/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/decode.html
+$dokka.location:com.microblink.recognition.core.internal//decrypt/#okio.ByteString#okio.ByteString#com.microblink.recognition.core.Events/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/decrypt.html
+$dokka.location:com.microblink.recognition.core.internal//decrypt/#okio.ByteString#okio.ByteString#kotlin.ByteArray#com.microblink.recognition.core.Events/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/decrypt.html
+$dokka.location:com.microblink.recognition.core.internal//emulator/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/emulator.html
 $dokka.location:com.microblink.recognition.core.internal//greaterThanOr33/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/greater-than-or33.html
 $dokka.location:com.microblink.recognition.core.internal//greaterThanOrR/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/greater-than-or-r.html
 $dokka.location:com.microblink.recognition.core.internal//lessThanOrPie/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/less-than-or-pie.html
@@ -88,6 +92,7 @@ $dokka.location:com.microblink.recognition.core.internal/Recognizer/close/#/Poin
 $dokka.location:com.microblink.recognition.core.internal/Recognizer/detections/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-recognizer/detections.html
 $dokka.location:com.microblink.recognition.core.internal/Recognizer/feed/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.ByteArray/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-recognizer/feed.html
 $dokka.location:com.microblink.recognition.core.internal/Recognizer/remove/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-recognizer/remove.html
+$dokka.location:com.microblink.recognition.core.internal/Recognizer/reset/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-recognizer/reset.html
 $dokka.location:com.microblink.recognition.core.internal/Recognizer/tracks/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-recognizer/tracks.html
 $dokka.location:com.microblink.recognition.core.internal/Version.ONE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}recognition-core/com.microblink.recognition.core.internal/-version/-o-n-e/index.html
 $dokka.location:com.microblink.recognition.core.internal/Version///PointingToDeclaration/recognition-core/com.microblink.recognition.core.internal/-version/index.html
@@ -107,9 +112,6 @@ $dokka.location:com.microblink.recognition.core/Android/type/#/PointingToDeclara
 $dokka.location:com.microblink.recognition.core/Apple///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-apple/index.html
 $dokka.location:com.microblink.recognition.core/Apple/name/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-apple/name.html
 $dokka.location:com.microblink.recognition.core/Apple/type/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-apple/type.html
-$dokka.location:com.microblink.recognition.core/AuthenticationToken///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-authentication-token/index.html
-$dokka.location:com.microblink.recognition.core/AuthenticationToken/AuthenticationToken/#kotlin.String/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-authentication-token/-authentication-token.html
-$dokka.location:com.microblink.recognition.core/AuthenticationToken/token/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-authentication-token/token.html
 $dokka.location:com.microblink.recognition.core/BitmapSource.Builder///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-bitmap-source/-builder/index.html
 $dokka.location:com.microblink.recognition.core/BitmapSource.Builder/Builder/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-bitmap-source/-builder/-builder.html
 $dokka.location:com.microblink.recognition.core/BitmapSource.Builder/bitmap/#android.graphics.Bitmap/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-bitmap-source/-builder/bitmap.html
@@ -124,6 +126,7 @@ $dokka.location:com.microblink.recognition.core/BitmapSource/toEncodeBase64/#and
 $dokka.location:com.microblink.recognition.core/BitmapSource/toString/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-bitmap-source/to-string.html
 $dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/index.html
 $dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk/countryCode/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/country-code.html
+$dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk/environment/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/environment.html
 $dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk/events/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/events.html
 $dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk/initialize/#android.content.Context#kotlin.String?#com.microblink.recognition.core.InitializeResults[kotlin.Boolean]/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/initialize.html
 $dokka.location:com.microblink.recognition.core/BlinkRecognitionSdk/initialized/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-blink-recognition-sdk/initialized.html
@@ -175,6 +178,9 @@ $dokka.location:com.microblink.recognition.core/Discovery/hashCode/#/PointingToD
 $dokka.location:com.microblink.recognition.core/Discovery/nutrition/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-discovery/nutrition.html
 $dokka.location:com.microblink.recognition.core/Discovery/reviews/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-discovery/reviews.html
 $dokka.location:com.microblink.recognition.core/Discovery/toString/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-discovery/to-string.html
+$dokka.location:com.microblink.recognition.core/EncryptedCoordinates///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-encrypted-coordinates/index.html
+$dokka.location:com.microblink.recognition.core/EncryptedCoordinates/EncryptedCoordinates/#okio.ByteString/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-encrypted-coordinates/-encrypted-coordinates.html
+$dokka.location:com.microblink.recognition.core/EncryptedCoordinates/coordinates/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-encrypted-coordinates/coordinates.html
 $dokka.location:com.microblink.recognition.core/Events.Companion///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-events/-companion/index.html
 $dokka.location:com.microblink.recognition.core/Events.Companion/NONE/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-events/-companion/-n-o-n-e.html
 $dokka.location:com.microblink.recognition.core/Events///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-events/index.html
@@ -254,6 +260,7 @@ $dokka.location:com.microblink.recognition.core/Product/confidence/#/PointingToD
 $dokka.location:com.microblink.recognition.core/Product/coordinates/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/coordinates.html
 $dokka.location:com.microblink.recognition.core/Product/department/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/department.html
 $dokka.location:com.microblink.recognition.core/Product/discovery/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/discovery.html
+$dokka.location:com.microblink.recognition.core/Product/encryptedCoordinates/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/encrypted-coordinates.html
 $dokka.location:com.microblink.recognition.core/Product/equals/#kotlin.Any?/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/equals.html
 $dokka.location:com.microblink.recognition.core/Product/hashCode/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/hash-code.html
 $dokka.location:com.microblink.recognition.core/Product/imageUrl/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/image-url.html
@@ -305,16 +312,11 @@ $dokka.location:com.microblink.recognition.core/Promotion/maxRewards/#/PointingT
 $dokka.location:com.microblink.recognition.core/Promotion/maxSubmissions/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/max-submissions.html
 $dokka.location:com.microblink.recognition.core/Promotion/minimumDollarAmount/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/minimum-dollar-amount.html
 $dokka.location:com.microblink.recognition.core/Promotion/name/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/name.html
-$dokka.location:com.microblink.recognition.core/Promotion/ongoing/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/ongoing.html
 $dokka.location:com.microblink.recognition.core/Promotion/promotionDisplay/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/promotion-display.html
 $dokka.location:com.microblink.recognition.core/Promotion/promotionType/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/promotion-type.html
 $dokka.location:com.microblink.recognition.core/Promotion/promotionsPerReceipt/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/promotions-per-receipt.html
 $dokka.location:com.microblink.recognition.core/Promotion/qualifiedProductIndices/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/qualified-product-indices.html
-$dokka.location:com.microblink.recognition.core/Promotion/rewardCurrency/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/reward-currency.html
 $dokka.location:com.microblink.recognition.core/Promotion/rewardType/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/reward-type.html
-$dokka.location:com.microblink.recognition.core/Promotion/rewardValue/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/reward-value.html
-$dokka.location:com.microblink.recognition.core/Promotion/rewardValueUnitsRequired/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/reward-value-units-required.html
-$dokka.location:com.microblink.recognition.core/Promotion/secondaryStatus/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/secondary-status.html
 $dokka.location:com.microblink.recognition.core/Promotion/slug/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/slug.html
 $dokka.location:com.microblink.recognition.core/Promotion/startPurchasedDate/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/start-purchased-date.html
 $dokka.location:com.microblink.recognition.core/Promotion/submissionEndDate/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-promotion/submission-end-date.html
@@ -450,12 +452,10 @@ $dokka.location:com.microblink.recognition.core/StoreDetection.Builder///Pointin
 $dokka.location:com.microblink.recognition.core/StoreDetection.Builder/Builder/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/-builder/-builder.html
 $dokka.location:com.microblink.recognition.core/StoreDetection.Builder/build/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/-builder/build.html
 $dokka.location:com.microblink.recognition.core/StoreDetection.Builder/store/#com.microblink.recognition.core.Store?/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/-builder/store.html
-$dokka.location:com.microblink.recognition.core/StoreDetection.Builder/suggestions/#kotlin.collections.List[com.microblink.recognition.core.Store]?/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/-builder/suggestions.html
 $dokka.location:com.microblink.recognition.core/StoreDetection///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/index.html
 $dokka.location:com.microblink.recognition.core/StoreDetection/equals/#kotlin.Any?/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/equals.html
 $dokka.location:com.microblink.recognition.core/StoreDetection/hashCode/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/hash-code.html
 $dokka.location:com.microblink.recognition.core/StoreDetection/store/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/store.html
-$dokka.location:com.microblink.recognition.core/StoreDetection/suggestions/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/suggestions.html
 $dokka.location:com.microblink.recognition.core/StoreDetection/toString/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-store-detection/to-string.html
 $dokka.location:com.microblink.recognition.core/SurfaceResults.Failure///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-surface-results/-failure/index.html
 $dokka.location:com.microblink.recognition.core/SurfaceResults.Failure/Failure/#kotlin.Throwable/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-surface-results/-failure/-failure.html
@@ -493,6 +493,8 @@ $dokka.location:com.microblink.recognition.core/TrackingUseCase/TrackingUseCase/
 $dokka.location:com.microblink.recognition.core/TrackingUseCase/close/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/close.html
 $dokka.location:com.microblink.recognition.core/TrackingUseCase/config/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/config.html
 $dokka.location:com.microblink.recognition.core/TrackingUseCase/events/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/events.html
+$dokka.location:com.microblink.recognition.core/TrackingUseCase/pause/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/pause.html
+$dokka.location:com.microblink.recognition.core/TrackingUseCase/resume/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/resume.html
 $dokka.location:com.microblink.recognition.core/TrackingUseCase/tracking/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracking-use-case/tracking.html
 $dokka.location:com.microblink.recognition.core/Tracks///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracks/index.html
 $dokka.location:com.microblink.recognition.core/Tracks/coordinateSystemCenterX/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-tracks/coordinate-system-center-x.html
