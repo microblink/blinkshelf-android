@@ -90,7 +90,7 @@ supportFragmentManager
     .commit()
 ```
 
-More info about defining [`RecognitionSettings`](https://microblink.github.io/blinkshelf-android/javadocs/camera-ui/recognition-camera-ui/com.microblink.recognition.camera.ui/-recognition-settings/index.html) can be found [here](fundamentals.md#recognition-settings).
+More info about defining [`RecognitionSettings`](https://microblink.github.io/blinkshelf-android/javadocs/camera-ui/recognition-camera-ui/com.microblink.recognition.camera.ui/-recognition-settings/index.html) can be found [here](sdk_options.md#recognition-settings).
 
 
 ### Handling results
