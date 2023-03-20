@@ -14,7 +14,7 @@ edit_uri: ""
 repo_url: https://github.com/microblink/blinkshelf-android
 site_description: "A shelf detection library for Android"
 site_author: Microblink
-remote_branch: gh-pages
+remote_branch: main
 
 theme:
   name: material
