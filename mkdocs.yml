@@ -25,12 +25,16 @@ plugins:
   - search
 
 nav:
-    - Overview: index.md
-    - Getting Started: getting_started.md
-    - Fundamentals: fundamentals.md 
-    - Custom UX: custom_ux.md
-    - API Documentation: documentation.md
-    - Change Log: changelog.md
+  - Overview: index.md
+  - Getting Started: getting_started.md
+  - Fundamentals:
+      - SDK Initialization: sdk_init.md
+      - Recognition Settings: sdk_options.md
+      - Theming: theming.md
+  - Additional Info:
+      - Processor architecture considerations: processor_arch.md
+  - API Documentation: documentation.md
+  - Change Log: changelog.md
 
 extra_css:
   - stylesheets/extra.css
@@ -56,5 +60,3 @@ markdown_extensions:
   - tables
   - admonition
   - attr_list
-
-  
