@@ -1,0 +1,60 @@
+# pip install mkdocs mkdocs-material
+# mkdocs serve
+# mkdocs gh-deploy
+
+extra:
+  blink_shelf:
+    release: '1.0.0'
+    next_release: '1.0.1'
+
+site_name: BlinkShelf
+site_url: https://microblink.github.io/blinkshelf-android/
+repo_name: BlinkShelf
+edit_uri: ""
+repo_url: https://github.com/microblink/blinkshelf-android
+site_description: "A shelf detection library for Android"
+site_author: Microblink
+remote_branch: gh-pages
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+
+plugins:
+  - search
+
+nav:
+    - Overview: index.md
+    - Getting Started: getting_started.md
+    - Fundamentals: fundamentals.md 
+    - Custom UX: custom_ux.md
+    - API Documentation: documentation.md
+    - Change Log: changelog.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - smarty
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - pymdownx.tabbed
+  - pymdownx.snippets
+  - tables
+  - admonition
+  - attr_list
+
+  
