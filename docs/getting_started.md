@@ -10,48 +10,51 @@ To add SDK to your Android project, please add the following to your dependency 
 ```groovy
 dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.6.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.datastore:datastore-preferences:1.0.0")
-    implementation("androidx.fragment:fragment-ktx:1.5.5")
+    implementation("androidx.fragment:fragment-ktx:1.5.6")
 
     implementation("com.google.android.material:material:1.8.0")
 
-    implementation("io.ktor:ktor-client-okhttp:2.2.3")
-    implementation("io.ktor:ktor-client-android:2.2.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.2.3")
-    implementation("io.ktor:ktor-client-logging:2.2.3")
-    implementation("io.ktor:ktor-client-content-negotiation:2.2.3")
-    implementation("io.ktor:ktor-client-auth:2.2.3")
+    implementation("io.ktor:ktor-client-okhttp:2.2.4")
+    implementation("io.ktor:ktor-client-android:2.2.4")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.2.4")
+    implementation("io.ktor:ktor-client-logging:2.2.4")
+    implementation("io.ktor:ktor-client-content-negotiation:2.2.4")
+    implementation("io.ktor:ktor-client-auth:2.2.4")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
     implementation("com.squareup.okio:okio:3.3.0")
     implementation("com.squareup.logcat:logcat:0.1")
 
-    implementation(platform("androidx.compose:compose-bom:2023.01.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material:material")
     
-    implementation("androidx.camera:camera-core:1.2.1")
-    implementation("androidx.camera:camera-camera2:1.2.1")
-    implementation("androidx.camera:camera-lifecycle:1.2.1")
-    implementation("androidx.camera:camera-view:1.2.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation("androidx.navigation:navigation-compose:2.5.3")
+    
+    implementation("androidx.camera:camera-core:1.2.2")
+    implementation("androidx.camera:camera-camera2:1.2.2")
+    implementation("androidx.camera:camera-lifecycle:1.2.2")
+    implementation("androidx.camera:camera-view:1.2.2")
 
-    implementation("com.google.accompanist:accompanist-pager:0.28.0")
-    implementation("com.google.accompanist:accompanist-pager-indicators:0.28.0")
-    implementation("com.google.accompanist:accompanist-permissions:0.28.0")
+    implementation("com.google.accompanist:accompanist-pager:0.30.0")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.30.0")
+    implementation("com.google.accompanist:accompanist-permissions:0.30.0")
 
     implementation("io.coil-kt:coil-compose:2.2.2")
 
-    implementation("com.airbnb.android:lottie:5.2.0")
-    implementation("com.airbnb.android:lottie-compose:5.2.0")
+    implementation("com.airbnb.android:lottie:6.0.0")
+    implementation("com.airbnb.android:lottie-compose:6.0.0")
 
-
-    implementation(project(":recognition-core"))
-    implementation(project(":recognition-camera"))
-    implementation(project(":recognition-camera-ui"))
+    implementation(project(":LibBlinkShelfCore"))
+    implementation(project(":LibBlinkShelfCamera"))
+    implementation(project(":LibBlinkShelfCameraUi"))
 }
 ```
 

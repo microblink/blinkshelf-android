@@ -8,28 +8,34 @@ An example of theming is shown in the code sample below.
 ```kotlin
 val settings = RecognitionSettings {
     theme(
-        Theme(
-            colors = ThemeColors.Builder()
+        Theme {
+            themeColors(
+                ThemeColors.Builder()
                 .primaryColor(Color.resourceColor(context, R.color.purple))
                 .secondaryColor(Color.hexColor(0xFF_7FF_F00))
                 .textColor(Color.composeColor(ComposeColor.Yellow))
-                .build(),
-            statusBannerStyle = StatusBannerStyle.Builder()
+                .build()
+            )
+            statusBannerStyle(
+                StatusBannerStyle.Builder()
                 .noPromotionText(Text.stringRes(R.string.text))
-                .build(),
-            resultDetailsStyle = ResultDetailsStyle.Builder()
+                .build()
+            )
+            resultDetailsStyle(ResultDetailsStyle.Builder()
                 .detailsIcon(Icon.drawableRes(R.drawable.ic_tag))
                 .detailsIconTintColor(Color.hexColor(0xFF_000_000))
-                .build(),
-            permissionOverlayStyle = PermissionOverlayStyle.Builder()
+                .build()
+            )
+            permissionOverlayStyle(
+                PermissionOverlayStyle.Builder()
                 .backgroundColor(Color.composeColor(ComposeColor.LightGray))
                 .buttonBackgroundColor(Color.hexColor(0xFF_000_000))
                 .buttonText(Text.stringRes(R.string.button))
                 .buttonTextColor(Color.hexColor(0xFF_FFF_FFF))
                 .build()
-        )
+            )
+        }
     )
-    ...
 }
 ```
 
@@ -58,22 +64,17 @@ Note that defining some of the styles below can override the colors mentioned in
 
 ## Boundary Style
 
-If a [region of interest](sdk_options.md#region-of-interest) is defined, boundaries will be applied to the scanning and captured frame.
+If a [region of interest](sdk_options.md#region-of-interest) is defined, boundaries will be applied to the scanning frame.
 
 ```kotlin
 BoundaryStyle.Builder()
-    .scanningColor(Color.composeColor(ComposeColor.Red))
-    .capturedColor(Color.composeColor(ComposeColor.Blue))
+    .color(Color.composeColor(ComposeColor.Red))
     .build()
 ```
 
-| Default Scanning Boundary                                                        | Custom Scanning Boundary                                                       |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| ![boundary_scanning_default](images/customization/boundary/scanning_default.png) | ![boundary_scanning_custom](images/customization/boundary/scanning_custom.png) |
-
-| Default Captured Boundary                                                        | Custom Captured Boundary                                                       |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| ![boundary_captured_default](images/customization/boundary/captured_default.png) | ![boundary_captured_custom](images/customization/boundary/captured_custom.png) |
+| Default Boundary                                               | Custom Boundary                                              |
+|----------------------------------------------------------------|--------------------------------------------------------------|
+| ![boundary_default](images/customization/boundary/default.png) | ![boundary_custom](images/customization/boundary/custom.png) |
 
 
 ## Status Banner Style
@@ -126,6 +127,22 @@ PromotionTagStyle.Builder()
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | ![promotion_tag_card_default](images/customization/promotion_tag/tag_card_default.png)   | ![promotion_tag_card_custom](images/customization/promotion_tag/tag_card_custom.png)   |
 | ![promotion_tag_sheet_default](images/customization/promotion_tag/tag_sheet_default.png) | ![promotion_tag_sheet_custom](images/customization/promotion_tag/tag_sheet_custom.png) |
+
+
+## Close Button Style
+
+Style used to define the camera's close button appearance.
+
+```kotlin
+CloseButtonStyle.Builder()
+    .icon(Icon.drawableRes(R.drawable.ic_close))
+    .tintColor(Color.composeColor(ComposeColor.Magenta))
+    .build()
+```
+
+| Default Close Button                                                   | Custom Close Button                                                  |
+|------------------------------------------------------------------------|----------------------------------------------------------------------|
+| ![close_button_default](images/customization/close_button/default.png) | ![close_button_custom](images/customization/close_button/custom.png) |
 
 
 ## Camera Button Style
@@ -214,8 +231,9 @@ ResultListContainerStyle.Builder()
     .sheetBackgroundColor(Color.composeColor(ComposeColor.Yellow))
     .notchColor(Color.composeColor(ComposeColor.Green))
     .titleTextColor(Color.hexColor(0xFF_000_000))
-    .headerTextColor(Color.composeColor(ComposeColor.Red))
+    .sectionHeaderTextColor(Color.composeColor(ComposeColor.Red))
     .listHeaderTextColor(Color.composeColor(ComposeColor.Cyan))
+    .dividerColor(Color.composeColor(ComposeColor.Red))
     .build()
 ```
 
