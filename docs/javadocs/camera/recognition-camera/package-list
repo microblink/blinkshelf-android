@@ -1,5 +1,11 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.microblink.recognition.camera.internal////PointingToDeclaration/recognition-camera/com.microblink.recognition.camera.internal/index.html
+$dokka.location:com.microblink.recognition.camera.internal/CameraState.PAUSED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}recognition-camera/com.microblink.recognition.camera.internal/-camera-state/-p-a-u-s-e-d/index.html
+$dokka.location:com.microblink.recognition.camera.internal/CameraState.RESUMED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}recognition-camera/com.microblink.recognition.camera.internal/-camera-state/-r-e-s-u-m-e-d/index.html
+$dokka.location:com.microblink.recognition.camera.internal/CameraState///PointingToDeclaration/recognition-camera/com.microblink.recognition.camera.internal/-camera-state/index.html
+$dokka.location:com.microblink.recognition.camera.internal/CameraState/valueOf/#kotlin.String/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera.internal/-camera-state/value-of.html
+$dokka.location:com.microblink.recognition.camera.internal/CameraState/values/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera.internal/-camera-state/values.html
 $dokka.location:com.microblink.recognition.camera////PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/index.html
 $dokka.location:com.microblink.recognition.camera/CameraProvider///PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-provider/index.html
 $dokka.location:com.microblink.recognition.camera/CameraProvider/takePicture/#com.microblink.recognition.camera.MediaOptions/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-provider/take-picture.html
@@ -20,7 +26,7 @@ $dokka.location:com.microblink.recognition.camera/CameraSettings/onException/#/P
 $dokka.location:com.microblink.recognition.camera/CameraSettings/regionOfInterest/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-settings/region-of-interest.html
 $dokka.location:com.microblink.recognition.camera/CameraSettings/resolution/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-settings/resolution.html
 $dokka.location:com.microblink.recognition.camera/CameraUseCase///PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/index.html
-$dokka.location:com.microblink.recognition.camera/CameraUseCase/CameraUseCase/#com.microblink.recognition.core.Events#kotlin.Function1[com.microblink.recognition.camera.CameraSettings,kotlin.Unit]/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/-camera-use-case.html
+$dokka.location:com.microblink.recognition.camera/CameraUseCase/CameraUseCase/#kotlinx.coroutines.flow.StateFlow[com.microblink.recognition.camera.internal.CameraState]#com.microblink.recognition.core.Events#kotlin.Function1[com.microblink.recognition.camera.CameraSettings,kotlin.Unit]/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/-camera-use-case.html
 $dokka.location:com.microblink.recognition.camera/CameraUseCase/capture/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/capture.html
 $dokka.location:com.microblink.recognition.camera/CameraUseCase/close/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/close.html
 $dokka.location:com.microblink.recognition.camera/CameraUseCase/configuration/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-camera-use-case/configuration.html
@@ -44,4 +50,5 @@ $dokka.location:com.microblink.recognition.camera/MediaOptions/format/#/Pointing
 $dokka.location:com.microblink.recognition.camera/MediaOptions/hashCode/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-media-options/hash-code.html
 $dokka.location:com.microblink.recognition.camera/MediaOptions/toString/#/PointingToDeclaration/recognition-camera/com.microblink.recognition.camera/-media-options/to-string.html
 com.microblink.recognition.camera
+com.microblink.recognition.camera.internal
 

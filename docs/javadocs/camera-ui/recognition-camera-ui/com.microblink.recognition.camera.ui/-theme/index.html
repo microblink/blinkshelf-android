@@ -40,8 +40,11 @@
             </a>
     </div>
     <div>
-1.0.0    </div>
+    </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":recognition-camera-ui:dokkaHtml/release">androidJvm</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -51,273 +54,296 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageIds="recognition-camera-ui::com.microblink.recognition.camera.ui/Theme///PointingToDeclaration//419091526">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="recognition-camera-ui::com.microblink.recognition.camera.ui/Theme///PointingToDeclaration//419091526">
   <div class="breadcrumbs"><a href="../../../index.html">recognition-camera-ui</a><span class="delimiter">/</span><a href="../index.html">com.microblink.recognition.camera.ui</a><span class="delimiter">/</span><span class="current">Theme</span></div>
   <div class="cover ">
     <h1 class="cover"><span><span>Theme</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Theme</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>colors<span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>boundaryStyle<span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>statusBannerStyle<span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>promotionBannerStyle<span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>promotionTagStyle<span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cameraButtonStyle<span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultIndicatorStyle<span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultCardStyle<span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultDetailsStyle<span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultListContainerStyle<span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scanAgainButtonStyle<span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>storeDisplayStyle<span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>permissionOverlayStyle<span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/android/os/Parcelable.html">Parcelable</a></div><p class="paragraph">Theme</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Theme</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>colors<span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>boundaryStyle<span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>statusBannerStyle<span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>promotionBannerStyle<span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>promotionTagStyle<span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>closeButtonStyle<span class="token operator">: </span><a href="../-close-button-style/index.html">CloseButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cameraButtonStyle<span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultIndicatorStyle<span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultCardStyle<span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultDetailsStyle<span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resultListContainerStyle<span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scanAgainButtonStyle<span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>storeDisplayStyle<span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>permissionOverlayStyle<span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/android/os/Parcelable.html">Parcelable</a></div><p class="paragraph">Theme</p></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="-472707831%2FConstructors%2F419091526" anchor-label="Theme" id="-472707831%2FConstructors%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-theme.html"><span><span>Theme</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-472707831%2FConstructors%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-theme.html"><span class="token function">Theme</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">colors<span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">boundaryStyle<span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">statusBannerStyle<span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">promotionBannerStyle<span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">promotionTagStyle<span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">cameraButtonStyle<span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultIndicatorStyle<span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultCardStyle<span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultDetailsStyle<span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultListContainerStyle<span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">scanAgainButtonStyle<span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">storeDisplayStyle<span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">permissionOverlayStyle<span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="2090647059%2FConstructors%2F419091526" anchor-label="Theme" id="2090647059%2FConstructors%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-theme.html"><span><span>Theme</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2090647059%2FConstructors%2F419091526"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">colors<span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">boundaryStyle<span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">statusBannerStyle<span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">promotionBannerStyle<span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">promotionTagStyle<span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">closeButtonStyle<span class="token operator">: </span><a href="../-close-button-style/index.html">CloseButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">cameraButtonStyle<span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultIndicatorStyle<span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultCardStyle<span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultDetailsStyle<span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">resultListContainerStyle<span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">scanAgainButtonStyle<span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">storeDisplayStyle<span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">permissionOverlayStyle<span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Types</h2>
-      <div class="table" data-togglable="Types"><a data-name="1324792845%2FClasslikes%2F419091526" anchor-label="Builder" id="1324792845%2FClasslikes%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-builder/index.html"><span><span>Builder</span></span></a></div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1324792845%2FClasslikes%2F419091526" anchor-label="Builder" id="1324792845%2FClasslikes%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder/index.html"><span><span>Builder</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1324792845%2FClasslikes%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-builder/index.html">Builder</a></div><div class="brief "><p class="paragraph">Builder</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-builder/index.html">Builder</a></div><div class="brief "><p class="paragraph">Builder</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Functions</h2>
-      <div class="table" data-togglable="Functions"><a data-name="-1578325224%2FFunctions%2F419091526" anchor-label="describeContents" id="-1578325224%2FFunctions%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../-ui-options/index.html#-1578325224%2FFunctions%2F419091526"><span>describe</span><wbr></wbr><span><span>Contents</span></span></a></div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1578325224%2FFunctions%2F419091526" anchor-label="describeContents" id="-1578325224%2FFunctions%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-ui-options/index.html#-1578325224%2FFunctions%2F419091526"><span>describe</span><wbr></wbr><span><span>Contents</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1578325224%2FFunctions%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-ui-options/index.html#-1578325224%2FFunctions%2F419091526"><span class="token function">describeContents</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-ui-options/index.html#-1578325224%2FFunctions%2F419091526"><span class="token function">describeContents</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1754457655%2FFunctions%2F419091526" anchor-label="writeToParcel" id="-1754457655%2FFunctions%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../-ui-options/index.html#-1754457655%2FFunctions%2F419091526"><span>write</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Parcel</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-ui-options/index.html#-1754457655%2FFunctions%2F419091526"><span>write</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Parcel</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1754457655%2FFunctions%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-ui-options/index.html#-1754457655%2FFunctions%2F419091526"><span class="token function">writeToParcel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Parcel.html">Parcel</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-ui-options/index.html#-1754457655%2FFunctions%2F419091526"><span class="token function">writeToParcel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Parcel.html">Parcel</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="633416942%2FProperties%2F419091526" anchor-label="boundaryStyle" id="633416942%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="boundary-style.html"><span>boundary</span><wbr></wbr><span><span>Style</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="633416942%2FProperties%2F419091526" anchor-label="boundaryStyle" id="633416942%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="boundary-style.html"><span>boundary</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="633416942%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="633416942%2FProperties%2F419091526" anchor-label="boundaryStyle" id="633416942%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="boundary-style.html">boundaryStyle</a><span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="boundary-style.html">boundaryStyle</a><span class="token operator">: </span><a href="../-boundary-style/index.html">BoundaryStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="793574075%2FProperties%2F419091526" anchor-label="cameraButtonStyle" id="793574075%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="camera-button-style.html"><span>camera</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="camera-button-style.html"><span>camera</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="793574075%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="793574075%2FProperties%2F419091526" anchor-label="cameraButtonStyle" id="793574075%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="camera-button-style.html">cameraButtonStyle</a><span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="camera-button-style.html">cameraButtonStyle</a><span class="token operator">: </span><a href="../-camera-button-style/index.html">CameraButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+<a data-name="1658921758%2FProperties%2F419091526" anchor-label="closeButtonStyle" id="1658921758%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="close-button-style.html"><span>close</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Style</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1658921758%2FProperties%2F419091526"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="close-button-style.html">closeButtonStyle</a><span class="token operator">: </span><a href="../-close-button-style/index.html">CloseButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="206638165%2FProperties%2F419091526" anchor-label="colors" id="206638165%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="colors.html"><span><span>colors</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="colors.html"><span><span>colors</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="206638165%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="206638165%2FProperties%2F419091526" anchor-label="colors" id="206638165%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="colors.html">colors</a><span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="colors.html">colors</a><span class="token operator">: </span><a href="../-theme-colors/index.html">ThemeColors</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="897559317%2FProperties%2F419091526" anchor-label="permissionOverlayStyle" id="897559317%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="permission-overlay-style.html"><span>permission</span><wbr></wbr><span>Overlay</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="permission-overlay-style.html"><span>permission</span><wbr></wbr><span>Overlay</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="897559317%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="897559317%2FProperties%2F419091526" anchor-label="permissionOverlayStyle" id="897559317%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="permission-overlay-style.html">permissionOverlayStyle</a><span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="permission-overlay-style.html">permissionOverlayStyle</a><span class="token operator">: </span><a href="../-permission-overlay-style/index.html">PermissionOverlayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-891163965%2FProperties%2F419091526" anchor-label="promotionBannerStyle" id="-891163965%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="promotion-banner-style.html"><span>promotion</span><wbr></wbr><span>Banner</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="promotion-banner-style.html"><span>promotion</span><wbr></wbr><span>Banner</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-891163965%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-891163965%2FProperties%2F419091526" anchor-label="promotionBannerStyle" id="-891163965%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="promotion-banner-style.html">promotionBannerStyle</a><span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="promotion-banner-style.html">promotionBannerStyle</a><span class="token operator">: </span><a href="../-promotion-banner-style/index.html">PromotionBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1269434363%2FProperties%2F419091526" anchor-label="promotionTagStyle" id="1269434363%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="promotion-tag-style.html"><span>promotion</span><wbr></wbr><span>Tag</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="promotion-tag-style.html"><span>promotion</span><wbr></wbr><span>Tag</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1269434363%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="1269434363%2FProperties%2F419091526" anchor-label="promotionTagStyle" id="1269434363%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="promotion-tag-style.html">promotionTagStyle</a><span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="promotion-tag-style.html">promotionTagStyle</a><span class="token operator">: </span><a href="../-promotion-tag-style/index.html">PromotionTagStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-2001057711%2FProperties%2F419091526" anchor-label="resultCardStyle" id="-2001057711%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="result-card-style.html"><span>result</span><wbr></wbr><span>Card</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="result-card-style.html"><span>result</span><wbr></wbr><span>Card</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2001057711%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-2001057711%2FProperties%2F419091526" anchor-label="resultCardStyle" id="-2001057711%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-card-style.html">resultCardStyle</a><span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-card-style.html">resultCardStyle</a><span class="token operator">: </span><a href="../-result-card-style/index.html">ResultCardStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1516298247%2FProperties%2F419091526" anchor-label="resultDetailsStyle" id="-1516298247%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="result-details-style.html"><span>result</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="result-details-style.html"><span>result</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1516298247%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-1516298247%2FProperties%2F419091526" anchor-label="resultDetailsStyle" id="-1516298247%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-details-style.html">resultDetailsStyle</a><span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-details-style.html">resultDetailsStyle</a><span class="token operator">: </span><a href="../-result-details-style/index.html">ResultDetailsStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-1407698874%2FProperties%2F419091526" anchor-label="resultIndicatorStyle" id="-1407698874%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="result-indicator-style.html"><span>result</span><wbr></wbr><span>Indicator</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="result-indicator-style.html"><span>result</span><wbr></wbr><span>Indicator</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1407698874%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-1407698874%2FProperties%2F419091526" anchor-label="resultIndicatorStyle" id="-1407698874%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-indicator-style.html">resultIndicatorStyle</a><span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-indicator-style.html">resultIndicatorStyle</a><span class="token operator">: </span><a href="../-result-indicator-style/index.html">ResultIndicatorStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-64620742%2FProperties%2F419091526" anchor-label="resultListContainerStyle" id="-64620742%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="result-list-container-style.html"><span>result</span><wbr></wbr><span>List</span><wbr></wbr><span>Container</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="result-list-container-style.html"><span>result</span><wbr></wbr><span>List</span><wbr></wbr><span>Container</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-64620742%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-64620742%2FProperties%2F419091526" anchor-label="resultListContainerStyle" id="-64620742%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-list-container-style.html">resultListContainerStyle</a><span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="result-list-container-style.html">resultListContainerStyle</a><span class="token operator">: </span><a href="../-result-list-container-style/index.html">ResultListContainerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-730715511%2FProperties%2F419091526" anchor-label="scanAgainButtonStyle" id="-730715511%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="scan-again-button-style.html"><span>scan</span><wbr></wbr><span>Again</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="scan-again-button-style.html"><span>scan</span><wbr></wbr><span>Again</span><wbr></wbr><span>Button</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-730715511%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-730715511%2FProperties%2F419091526" anchor-label="scanAgainButtonStyle" id="-730715511%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="scan-again-button-style.html">scanAgainButtonStyle</a><span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="scan-again-button-style.html">scanAgainButtonStyle</a><span class="token operator">: </span><a href="../-scan-again-button-style/index.html">ScanAgainButtonStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="-470545534%2FProperties%2F419091526" anchor-label="statusBannerStyle" id="-470545534%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="status-banner-style.html"><span>status</span><wbr></wbr><span>Banner</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="status-banner-style.html"><span>status</span><wbr></wbr><span>Banner</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-470545534%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="-470545534%2FProperties%2F419091526" anchor-label="statusBannerStyle" id="-470545534%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="status-banner-style.html">statusBannerStyle</a><span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="status-banner-style.html">statusBannerStyle</a><span class="token operator">: </span><a href="../-status-banner-style/index.html">StatusBannerStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1168590629%2FProperties%2F419091526" anchor-label="storeDisplayStyle" id="1168590629%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a>
-        <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="store-display-style.html"><span>store</span><wbr></wbr><span>Display</span><wbr></wbr><span><span>Style</span></span></a></div>
+          <div class="table-row" data-filterable-current=":recognition-camera-ui:dokkaHtml/release" data-filterable-set=":recognition-camera-ui:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="store-display-style.html"><span>store</span><wbr></wbr><span>Display</span><wbr></wbr><span><span>Style</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1168590629%2FProperties%2F419091526"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><a data-name="1168590629%2FProperties%2F419091526" anchor-label="storeDisplayStyle" id="1168590629%2FProperties%2F419091526" data-filterable-set=":recognition-camera-ui:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="store-display-style.html">storeDisplayStyle</a><span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":recognition-camera-ui:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="store-display-style.html">storeDisplayStyle</a><span class="token operator">: </span><a href="../-store-display-style/index.html">StoreDisplayStyle</a><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
               </div>
             </div>
           </div>

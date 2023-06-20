@@ -1,4 +1,4 @@
-# Processor architecture considerations
+# Processor Architecture Considerations
 
 BlinkShelf is distributed with **ARMv7** and **ARM64** native library binaries.
 

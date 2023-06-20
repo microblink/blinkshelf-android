@@ -282,6 +282,7 @@ $dokka.location:com.microblink.recognition.core/Preview/width/#/PointingToDeclar
 $dokka.location:com.microblink.recognition.core/PreviewProvider///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-preview-provider/index.html
 $dokka.location:com.microblink.recognition.core/PreviewProvider/preview/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-preview-provider/preview.html
 $dokka.location:com.microblink.recognition.core/Product///PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/index.html
+$dokka.location:com.microblink.recognition.core/Product/backFacing/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/back-facing.html
 $dokka.location:com.microblink.recognition.core/Product/brand/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/brand.html
 $dokka.location:com.microblink.recognition.core/Product/confidence/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/confidence.html
 $dokka.location:com.microblink.recognition.core/Product/coordinates/#/PointingToDeclaration/recognition-core/com.microblink.recognition.core/-product/coordinates.html
