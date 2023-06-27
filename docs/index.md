@@ -7,6 +7,7 @@ The BlinkShelf SDK lets you build a fantastic in-store experience in your Androi
     <img src="images/screenshot.png" />
 </p>
 
+Interested to learn more? Check the official Microblink [page](https://microblink.com/commerce/product-recognition/){target=_blank} for more info.
 
 ## Requirements
 
