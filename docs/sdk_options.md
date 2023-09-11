@@ -35,6 +35,7 @@ Note that the default SDK's UI will also be affected when using this flag.
 Store detection is enabled by default, but it can be disabled by setting `enabled` to false. 
 If enabled, it is possible to specify the radius within which store detection should be performed.
 The default search radius is 1 mile. Both radius value and units can be configured.
+More info about store detection can be found [here](store_detection.md).
 
 [`FrameOptions`](https://microblink.github.io/blinkshelf-android/javadocs/camera-ui/recognition-camera-ui/com.microblink.recognition.camera.ui/-frame-options/index.html) allows setting frame compression 
 parameters used for product recognition.
@@ -47,4 +48,4 @@ Compression Format can be one of the values available in [`FrameFormat`](https:/
 Out-of-the-box experience can be modified by settings [`UiOptions`](https://microblink.github.io/blinkshelf-android/javadocs/camera-ui/recognition-camera-ui/com.microblink.recognition.camera.ui/-ui-options/index.html).
 
 `UiOptions` contain the flag `shouldShowSessionId` which allows the client to display the session ID on the UI. 
-By default, the session ID won't be shown.
+By default, the session ID won't be shown. 

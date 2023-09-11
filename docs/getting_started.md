@@ -11,7 +11,7 @@ repositories {
 }
 ```
 
-Add BlinkShelf as a dependency and make sure transitive is set to true
+Add dependencies
 
 ```groovy
 dependencies {
@@ -19,6 +19,10 @@ dependencies {
     implementation("com.microblink.recognition:blinkshelf-core:$sdk_version") 
     implementation("com.microblink.recognition:blinkshelf-camera:$sdk_version") 
     implementation("com.microblink.recognition:blinkshelf-camera-ui:$sdk_version") 
+    
+    // optional, required when using store detection feature
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 }
 ```
 
