@@ -1,0 +1,1 @@
+sourceset_dependencies='{":recognition-core:dokkaHtml/androidTestRelease":[],":recognition-core:dokkaHtml/debug":[],":recognition-core:dokkaHtml/main":[],":recognition-core:dokkaHtml/release":[],":recognition-core:dokkaHtml/testFixtures":[],":recognition-core:dokkaHtml/testFixturesDebug":[],":recognition-core:dokkaHtml/testFixturesRelease":[]}'
